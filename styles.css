@@ -7,12 +7,9 @@ html {
     height: 100%;
 }
 .right {
-    float: right;
     width: 80%;
     height: 755px;
     background-color:#48d1cc;
-    justify-content: center;
-    align-self: center;
 }
 #one {
     text-align: center;
