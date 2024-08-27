@@ -43,9 +43,14 @@ img {
 button {
     border: 2px solid #85e0dd;
     background: #d1484d;
-    padding: 8px 10px;
-    border-radius: 16px;
+    padding: 5px 5px;
+    color: white;
+    border-radius: 14px;
     font-size: 13px;
     text-decoration: none;
     font-family: 'Times New Roman';
+    transition: 0.5s;
+}
+button:hover {
+    background-color: #85e0dd;
 }
