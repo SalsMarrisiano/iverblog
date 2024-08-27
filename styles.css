@@ -10,7 +10,7 @@ html {
 .right {
     float: right;
     width: 77%;
-    height: 780px;
+    height: 755px;
     background-color:#48d1cc;
 }
 #one {
@@ -49,8 +49,8 @@ button {
     text-decoration: none;
     font-family: 'Times New Roman';
     transition: 0.5s;
-    text-align: center;
-    
+    display: block;
+    margin: auto;
 }
 button:hover {
     background-color: #85e0dd;
