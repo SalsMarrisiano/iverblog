@@ -1,7 +1,7 @@
 html {
     background-color: #48d1cc;
     font-family: 'Times New Roman';
-    height: 1130px;
+    height: 900px;
 }
 /*mains*/
 .left {
@@ -78,7 +78,7 @@ p {
     display: inline-block; 
     text-align: justify;
     width: 200;
-    line-height: 200px;
+    line-height: 50px;
 }
 .box img{
     display: block;
