@@ -1,14 +1,18 @@
+html {
+    background-color: #d1484d;
+    font-family: 'Times New Roman';
+}
 .left {
     float: left;
-    
-    width: 35%;
+    width: 23%;
     height: 750px;
+    
 }
 .right {
     float: right;
-
-    width: 65%;
-    height: 750px;
+    width: 77%;
+    height: 780px;
+    background-color:#48d1cc;
 }
 #one {
     text-align: center;
@@ -23,4 +27,25 @@ h3 {
 }
 img {
     border-radius: 100%;
+}
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #85e0dd;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    border: 2px solid #85e0dd;
+    background: #d1484d;
+    padding: 8px 10px;
+    border-radius: 16px;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: 'Times New Roman';
 }
