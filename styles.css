@@ -5,7 +5,7 @@ html {
 .left {
     float: left;
     width: 23%;
-    height: 780px;
+    height: 100%;
 }
 .right {
     float: right;
