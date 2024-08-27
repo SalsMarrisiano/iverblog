@@ -1,7 +1,7 @@
 html {
     background-color: #48d1cc;
     font-family: 'Times New Roman';
-    height: 890px;
+    height: 900px;
 }
 /*mains*/
 .left {
@@ -22,7 +22,7 @@ html {
     border-radius: 7px;
 }
 /* profile pic */
-img {
+section img {
     border-radius: 100%;
 }
 
@@ -76,10 +76,13 @@ p {
     border: 2px solid #85e0dd;
     margin: auto;
     margin: 10px;
-    display: inline-block; /* Aligns the containers side by side */
+    display: inline-block; 
     text-align: center;
-    line-height: 200px; 
-    color: aliceblue;
+    line-height: 200px;
+}
+div a {
+    display: inline-block;
+    margin-right: 20px;
 }
 /*footer*/
 #footer{
