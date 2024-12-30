@@ -3,10 +3,12 @@ html {
     font-family: 'Times New Roman';
     height: 900px;
 }
+
 /*mains*/
 .left {
     width: 100%;
 }
+
 .right {
     width: 50%;
     height: 100%;
@@ -14,6 +16,7 @@ html {
     margin: auto;
     border-radius: 7px;
 }
+
 .right2 {
     width: 50%;
     height: 100%;
@@ -21,6 +24,7 @@ html {
     margin: auto;
     border-radius: 7px;
 }
+
 /* profile pic */
 section img {
     border-radius: 100%;
@@ -41,25 +45,31 @@ button {
     display: block;
     margin: auto;
 }
+
 button:hover {
     background-color: #85e0dd;
 }
-a{
+
+a {
     text-decoration: none;
     color: navy;
 }
+
 /*scattered*/
 #section {
     text-align: center;
     margin-top: 100px;
 }
+
 #intro {
     font-size: 16px;
 }
+
 #name {
     text-align: center;
     font-size: 24px;
 }
+
 h4 {
     padding: 15px 15px 0 15px;
     font-size: 18px;
@@ -69,23 +79,31 @@ p {
     padding: 0 15px 15px 15px;
     line-height: 1.5;
 }
+
 .box {
     width: 200px;
     height: 200px;
     background-color: #d65c61;
     border: 2px solid #85e0dd;
     margin: 10px;
-    display: inline-block; 
+    display: inline-block;
     text-align: justify;
     width: 200;
     line-height: 50px;
 }
-.box img{
+
+.box img {
     display: block;
     margin: 0 auto;
 }
+
+#blog1 {
+    margin-left: 15px;
+    outline: 2px solid darkred;
+}
+
 /*footer*/
-#footer{
+#footer {
     position: fixed;
     left: 0;
     bottom: 0;
