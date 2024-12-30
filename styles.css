@@ -50,7 +50,7 @@ button:hover {
     background-color: #85e0dd;
 }
 
-a {
+a.section1 {
     text-decoration: none;
     color: navy;
 }
@@ -103,6 +103,7 @@ p {
     margin: auto;
     border: 2px solid darkred;
     border-radius: 15px;
+    background-color: #d65c61;
     transition: 0.4s;
 }
 
@@ -115,8 +116,9 @@ p {
     margin-left: 2%;
 }
 
-a {
+#a-blog1 {
     color: black;
+    text-decoration: none;
 }
 
 /*footer*/
