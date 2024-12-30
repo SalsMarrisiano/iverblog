@@ -99,7 +99,7 @@ p {
 
 #blog1 {
     width: 55%;
-    height: 120px;
+    height: auto;
     margin: auto;
     border: 2px solid darkred;
     border-radius: 15px;
@@ -107,13 +107,16 @@ p {
 }
 
 #blog1:hover {
-    height: 130px;
-    width: 60%;
+    transform: scale(1.04);
     transition: 0.3s;
 }
 
 .blog1 {
     margin-left: 2%;
+}
+
+a {
+    color: black;
 }
 
 /*footer*/
