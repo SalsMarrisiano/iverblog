@@ -127,10 +127,34 @@ p {
 }
 
 /* Iver Blog Home */
+#container {
+    background-color: rgb(71, 155, 99);
+    position: fixed;
+    display: inline-flex;
+    width: 100%;
+    left: 0;
+    top: 0;
+    align-items: center;
+
+}
+
+.container-items {
+    align-self: center;
+    margin: auto;
+}
+
 #img {
     top: 3.5%;
-    position: fixed;
-    margin: auto;
+    display: inline-block;
+    width: 40px;
+    display: flex;
+}
+
+.index-body,
+a.special-a {
+    margin-top: 100px;
+    color: black;
+    z-index: 100;
 }
 
 /*footer*/
