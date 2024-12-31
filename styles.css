@@ -1,7 +1,8 @@
 html {
-    background-color: #48d1cc;
+    background-color: #f5f5dc;
     font-family: 'Times New Roman';
     height: 900px;
+    color: #ffffff;
 }
 
 /*mains*/
@@ -12,7 +13,7 @@ html {
 .right {
     width: 50%;
     height: 100%;
-    background-color: #d1484d;
+    background-color: rgb(41, 93, 58);
     margin: auto;
     border-radius: 7px;
 }
@@ -20,21 +21,28 @@ html {
 .right2 {
     width: 50%;
     height: 100%;
-    background-color: #d1484d;
+    background-color: rgb(41, 93, 58);
     margin: auto;
     border-radius: 7px;
 }
 
-/* profile pic */
+/* profile pic and name*/
 section img {
     border-radius: 100%;
+    border: 2px solid rgb(34, 77, 48);
+}
+
+#name {
+    text-align: center;
+    font-size: 24px;
+    color: black;
 }
 
 /* view profile button */
 
 button {
-    border: 2px solid #85e0dd;
-    background: #d1484d;
+    border: 2px solid rgb(41, 93, 58);
+    background: rgb(71, 155, 99);
     padding: 5px 5px;
     color: white;
     border-radius: 14px;
@@ -47,12 +55,13 @@ button {
 }
 
 button:hover {
-    background-color: #85e0dd;
+    background-color: rgb(41, 93, 58);
 }
 
-a.section1 {
-    text-decoration: none;
-    color: navy;
+a {
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
 }
 
 /*scattered*/
@@ -63,11 +72,6 @@ a.section1 {
 
 #intro {
     font-size: 16px;
-}
-
-#name {
-    text-align: center;
-    font-size: 24px;
 }
 
 h4 {
@@ -83,8 +87,8 @@ p {
 .box {
     width: 200px;
     height: 200px;
-    background-color: #d65c61;
-    border: 2px solid #85e0dd;
+    background-color: rgb(71, 155, 99);
+    border: 2px solid #f5f5dc;
     margin: 10px;
     display: inline-block;
     text-align: justify;
@@ -101,10 +105,11 @@ p {
     width: 55%;
     height: auto;
     margin: auto;
-    border: 2px solid darkred;
+    border: 2px solid rgb(34, 77, 48);
     border-radius: 15px;
-    background-color: #d65c61;
+    background-color: rgb(41, 93, 58);
     transition: 0.4s;
+    color: #ffffff;
 }
 
 #blog1:hover {
