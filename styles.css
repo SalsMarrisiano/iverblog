@@ -126,6 +126,13 @@ p {
     text-decoration: none;
 }
 
+/* Iver Blog Home */
+#img {
+    top: 3.5%;
+    position: fixed;
+    margin: auto;
+}
+
 /*footer*/
 #footer {
     position: fixed;
