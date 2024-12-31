@@ -79,7 +79,7 @@ h4 {
     font-size: 18px;
 }
 
-p {
+.aboutme-body p {
     padding: 0 15px 15px 15px;
     line-height: 1.5;
 }
@@ -130,31 +130,36 @@ p {
 #container {
     background-color: rgb(71, 155, 99);
     position: fixed;
-    display: inline-flex;
+    display: flex;
+    /* Change to flex */
     width: 100%;
     left: 0;
     top: 0;
     align-items: center;
-
+    /* Align items vertically centered */
+    justify-content: center;
+    /* Center items horizontally */
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 .container-items {
-    align-self: center;
-    margin: auto;
+    margin-top: 10 10px;
+    margin: 0 10px;
+    /* Add some margin for spacing */
 }
 
 #img {
-    top: 3.5%;
-    display: inline-block;
     width: 40px;
-    display: flex;
+    /* Keep image size */
+    margin-right: 10px;
+    /* Space between image and text */
 }
 
 .index-body,
-a.special-a {
-    margin-top: 100px;
+.special-a {
+    margin-top: 90px;
     color: black;
-    z-index: 100;
 }
 
 /*footer*/
